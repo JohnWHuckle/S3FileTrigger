@@ -1,0 +1,97 @@
+## generic files to ignore
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
+*.log
+*.~
+
+# compiled output
+/tmp
+/build
+/target
+/project/target
+/bin
+
+# rails specific
+*.sqlite3
+config/database.yml
+log/*
+tmp/*
+
+# java specific
+*.class
+
+# python specific
+*.pyc
+
+# xcode/iphone specific
+build/*
+*.pbxuser
+*.mode2v3
+*.mode1v3
+*.perspective
+*.perspectivev3
+*~.nib
+
+# akka specific
+logs/*
+reference.conf
+version.conf
+
+# sbt specific
+target/
+project/boot
+lib_managed/*
+project/build/target
+project/build/lib_managed
+project/build/src_managed
+project/plugins/lib_managed
+project/plugins/target
+project/plugins/src_managed
+project/plugins/project
+
+core/lib_managed
+core/target
+pubsub/lib_managed
+pubsub/target
+
+# eclipse specific
+.metadata
+jrebel.lic
+.settings
+.classpath
+.project
+
+.ensime*
+*.sublime-*
+.cache
+
+# intellij
+*.eml
+*.iml
+*.ipr
+*.iws
+.*.sw?
+.idea/*
+/.idea/
+.idea
+*.idea
+*.idea/
+*.idea/workspace.xml
+*.idea/tasks.xml
+*.idea/dictionaries
+*.idea/shelf
+*.idea/*
+*.idea/misc.xml
+*.idea/workspace.xml
+
+# VS Code
+.settings
+
+# paulp script
+/.lib/
+
+# Build resources
+src/main/resources/build.properties
